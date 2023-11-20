@@ -1,16 +1,13 @@
 # hw3
+## **Name**: Zarshedjon Nasimov
+## **ID**: 2110058
 
-A new Flutter project.
+A new Flutter project for homework 3.
 
-## Getting Started
+My Project has 6 basic dart files 4 of which are just screen pages. 
+To run this program you have to clone the project files and open the folder as a project in any editor that supports the Flutter project.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+I used Navigator and routes to change screens in the app. I initially saved all routes in main.dart and set the Login Page for initial route.
+I have one extra NavBar.dart file with the navigation bar widget, which I used on other pages by importing it. 
+Pages are changed by pressing one of the buttons on the navbar, which then calls an onPressed() function.
+Inside that function, I have specified separately for each button to push the name of each route in main.dart.
